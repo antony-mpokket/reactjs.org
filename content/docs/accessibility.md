@@ -65,9 +65,9 @@ function ListItem({ item }) {
 function Glossary(props) {
   return (
     <dl>
-      {props.items.map(item => (
+      {props.items.map(item => 
         <ListItem item={item} key={item.id} />
-      ))}
+      )}
     </dl>
   );
 }
